@@ -1,0 +1,34 @@
+---
+layout: page
+title: BCC Design Files
+permalink: "/bcc/"
+---
+
+<h1>BCC Design Files</h1>
+<a href="https://trello.com/b/qDxSLtbd" class="pipeline">☝  Current Projects &amp; Backlog — Click Here☝</a>
+<div class="key"><span class="job-flag"></span><span>= Job Fair</span></span><span class="transfer-flag"> </span><span>= Transfer Fair</span></div>
+<div class="bcc__table ">
+    <div class="heading">
+        <div class="name">Name</div>
+        <div class="format">Format</div>
+        <div class="details">Print Details</div>
+        <div class="interaction"></div>
+    </div>
+    {% for bcc in site.data.bcc %}
+    <div class="bcc__table--row">
+        <div class="left-side">
+            <div class="name">
+                {% if bcc.job-fair %}<span class="job-flag"></span>{% endif %}
+                {% if bcc.transfer-fair %}<span class="transfer-flag"></span>{% endif %}
+                {{ bcc.name }}
+            </div>
+            <div class="format">{{ bcc.format }}</div>
+            <div class="details">{{ bcc.print }}</div>
+        </div>
+        <div class="interaction">
+            <div class="changes"><a href="mailto:jeffrey.herrera@bcc.cuny.edu?subject=Change%20Request:%20{{ bcc.name }}">Request Changes</a></div>
+            <div class="download"><a href="{{ bcc.url }}">Download</a></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,112 @@
+
+title: Jeffrey Herrera
+email: jeff@kubonyc.com
+description: > # this means to ignore newlines until "baseurl:"
+  The portfolio of Jeffrey Herrera
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.jeffreyherrera.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+# Languages and syntax highlighting
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax-highlighter: rouge
+theme: minima
+# Gems
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-picture-tag
+  - jemoji
+  - jekyll-twitter-plugin
+# For Travis CI and gulp
+exclude: ["vendor",
+          "_assets",
+          "Gemfile",
+          "Gemfile.lock",
+          "gulpfile.js",
+          "node_modules",
+          "package.json",
+          "hologram_config.yml"]
+
+  # Picture element presets
+picture:
+  source: "assets/img"
+  output: "assets/processed-img"
+  markup: "picture"
+  presets:
+    team_square:
+      attr:
+        class: "image--team-square"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_400:
+        media: "(min-width: 400px)"
+        width: "334"
+      source_default:
+        width: "254"
+    team_individual:
+      attr:
+        class: "image--team-individual"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_400:
+        media: "(min-width: 400px)"
+        width: "350"
+      source_default:
+        width: "288"
+    team_post_meta:
+      attr:
+        class: "image--team-post-meta"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_default:
+        width: "288"
+    case_study:
+      attr:
+        class: "image--case-study"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_860:
+        media: "(min-width: 860px)"
+        width: "560"
+      source_640:
+        media: "(min-width: 640px)"
+        width: "430"
+      source_400:
+        media: "(min-width: 400px)"
+        width: "560"
+      source_default:
+        width: "400"
+    post_featured_image:
+      attr:
+        class: "image--post-featured-image"
+        itemprop: "image"
+      ppi: [1, 2]
+      source_1120:
+        media: "(min-width: 400px)"
+        width: "737"
+      source_default:
+        width: "400"
+
+# Work Collection
+collections:
+  work:
+    output: true
+    permalink: /:title/
+defaults:
+  - scope:
+      path: ""
+      type: work
+    values:
+      layout: page-project
+      title: ""
+      disciplines: ""
+      permalink: ""
+      order: ""
+      work: true

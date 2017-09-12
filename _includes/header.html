@@ -1,0 +1,22 @@
+<input type="checkbox" id="header__nav--input" />
+<label for="header__nav--input" id="header__nav--button"><span></span></label>
+<header class="header" role="banner">
+
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+
+    <ul class="header__meta header__meta--top">
+      <li>Contact</li>
+      <li><a href="/lets-work/">New Business</a></li>
+      <li><a href="mailto:herrera.jeffrey@gmail.com?subject=Hi There!">General</a></li>
+    </ul>
+
+    {% include navigation.html %}
+
+    <ul class="header__meta header__meta--bottom">
+      <li>Follow</li>
+      <li><a href="http://www.twitter.com/isthatjeff">Twitter</a></li>
+      <li><a href="http://www.instagram.com/_isthatjeff">Instagram</a></li>
+    </ul>
+
+</header>

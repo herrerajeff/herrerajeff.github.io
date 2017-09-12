@@ -1,0 +1,149 @@
+// Reset some basic elements
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure
+  margin: 0
+  padding: 0
+
+*
+  box-sizing: border-box
+
+  &::selection
+    background-color: #222
+    color: #EEE
+
+  a
+    &::selection
+      color: $c-yellow
+
+// Basic styling
+body
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family
+  color: $c-text
+  background-color: $c-bg
+  -webkit-text-size-adjust: 100%
+  font-feature-settings: 'kern', 'liga', 'dlig', 'hlig', 'cswh' 1
+  font-kerning: normal
+  line-height: 1.5em
+
+// Set `margin-bottom` to maintain vertical rhythm
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm
+  margin-bottom: $spacing-unit / 2
+
+// Images
+img
+  max-width: 100%
+  vertical-align: middle
+
+// Figures
+figure > img
+  display: block
+
+figcaption
+  font-size: $small-font-size
+
+// Lists
+ul, ol
+  // margin-left: $spacing-unit
+
+li
+  > ul,
+  > ol
+    margin-bottom: 0
+
+// Headings
+h1, h2, h3, h4, h5, h6
+  color: $c-black
+  font-weight: normal
+  line-height: 1em
+
+// Links
+a
+  color: $c-black
+  overflow: hidden
+  position: relative
+  text-decoration: none
+  transition: all 0.25s ease
+  border-bottom: solid 2px transparent
+
+  // &::after
+  //   background-color: $c-yellow
+  //   content: ''
+  //   display: block
+  //   height: 120%
+  //   width: 3px
+  //   transform: translateY(-55%) rotate(45deg)
+  //   opacity: 0
+  //   position: absolute
+  //   top: 50%
+  //   left: 5%
+  //   transition: all 0.3s ease
+  //   z-index: -1
+
+  &:hover
+    border-bottom: solid 2px $c-yellow
+    // &::after
+    //   opacity: 1
+    //   // transform: translateY(0)
+
+// Blockquotes
+blockquote
+  color: $c-gray
+  border-left: 4px solid $c-text
+  padding-left: $spacing-unit / 2
+  font-size: 18px
+  letter-spacing: -1px
+  font-style: italic
+
+  > :last-child
+    margin-bottom: 0
+
+// Code formatting
+pre,
+code
+  font-size: 15px
+  border: 1px solid $c-text
+  border-radius: 3px
+  background-color: #eef
+
+code
+  padding: 1px 5px
+
+pre
+  padding: 8px 12px
+  overflow-x: auto
+
+  > code
+    border: 0
+    padding-right: 0
+    padding-left: 0
+
+// Wrapper
+.wrapper
+  max-width: 90%
+  width: 1200px
+  margin-right: auto
+  margin-left: auto
+
+  @extend %clearfix
+
+// Clearfix
+%clearfix
+  &:after
+    content: ''
+    display: table
+    clear: both
+
+// Icons
+.icon
+  > svg
+    display: inline-block
+    width: 16px
+    height: 16px
+    vertical-align: middle
+
+    path
+      fill: $c-gray

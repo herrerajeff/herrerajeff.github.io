@@ -1,0 +1,10 @@
+<ul class="header__nav">
+	<li class="header__nav--link"><a href="/">Work</a></li>
+	<li class="header__nav--link"><a href="/about/">About</a></li>
+	<li class="header__nav--link"><a href="/blog">Blog</a></li>
+	<ul class="header__nav--project">
+		{% if page.next %} <li><a href="{{ page.next.url }}" style=" color: #{{ page.color }}">Next Project</a></li> {% endif %}
+		{% if page.previous %} <li><a href="{{ page.previous.url }}" style=" color: #{{ page.color }}">Previous Project</a></li> {% endif %}
+		{% if page.site %} <li><a href="{{ page.site }}" style=" color: #{{ page.color }}">Visit Website</a></li>{% endif %}
+	</ul>
+</ul>

@@ -1,0 +1,21 @@
+---
+- name: YouTube
+  url: https://www.youtube.com/feed/subscriptions
+- name: Twitch
+  url: https://www.twitch.tv/directory/following
+- name: Twitter
+  url: https://mobile.twitter.com/
+- name: Amazon
+  url: https://smile.amazon.com/
+- name: Trello
+  url: https://trello.com/
+- name: TV & Movies
+  url: https://thewatchseries.us/new-release
+- name: Raindrop
+  url: http://raindrop.io/
+- name: The Art of Manliness
+  url: http://www.artofmanliness.com/
+- name: Netflix
+  url: http://www.netflix.com
+- name: Portfolio Admin
+  url: https://app.forestry.io/dashboard

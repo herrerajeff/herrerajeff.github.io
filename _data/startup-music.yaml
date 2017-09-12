@@ -1,0 +1,7 @@
+---
+- name: Illroots
+  url: http://www.illroots.com/
+- name: Pitchfork
+  url: http://pitchfork.com/
+- name: Soundcloud
+  url: http://www.soundcloud.com

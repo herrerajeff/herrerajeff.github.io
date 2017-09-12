@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="home row init">
+  <div class="home__header">
+    <h1 class="home__title">
+      I'm a designer from New York City
+      <ul class="home__title--list">
+        <li>creating with impact</li>
+        <li>making beauty accessible</li>
+        <li>petting every cat in town</li>
+        <li>searching for the greatest tacos</li>
+      </ul>
+    </h1>
+
+    <div class="home__logo">
+      {% include logo.html %}
+    </div>
+  </div>
+
+  <div class="home__work">
+    {% for work in site.work %}
+      <a href="{{work.url}}" class="work__item">
+        <div class="work__item--container" style="background-image: url('/assets/img/{{work.aka}}.jpg');">
+          <div class="work__item--overlay">
+            <div class="work__item--description">
+              <h2 class="work__title">{{work.title}}</h2>
+            </div>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+</div>

@@ -1,0 +1,54 @@
+@charset 'utf-8'
+
+// Our variables
+$base-font-family: 'Interface', sans-serif
+
+$base-font-size: 15px
+$base-font-weight: normal
+$small-font-size: $base-font-size * 0.875
+$base-line-height: 1.5
+
+$spacing-unit: 50px
+
+$c-bg       : #f2f5f7
+$c-black    : #000000
+$c-gray     : #7a7a7a
+$c-text     : #808080
+$c-white    : #ffffff
+$c-yellow   : #fcda00
+$c-darktext : #9C9C9C
+$c-darkbg   : #222222
+
+// Width of the content area
+$l: 1200px
+$m: 960px
+$s: 768px
+
+=ease
+  transition: 0.3s ease-in-out
+
+=media-query($device)
+  @media screen and (max-width: $device)
+    @content
+
+=aspect-ratio($width, $height)
+  position: relative
+
+  &:before
+    content: ''
+    display: block
+    padding-top: $height / $width * 100%
+    width: 100%
+
+  > .content
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    top: 0
+
+=clearfix
+  &::after
+    clear: both
+    content: ''
+    display: table
