@@ -968,6 +968,22 @@ small
     opacity: 0
     animation: fadeIn 0.5s 0.5s ease forwards
 
+#typeform-full
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    width: calc(100% - 200px)
+    border-left: solid 1px darken($c-bg, 5%)
+
+    +media-query($s)
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        width: 100%
+
 @keyframes fadeIn
     from
         opacity: 0

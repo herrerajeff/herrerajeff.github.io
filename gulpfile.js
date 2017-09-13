@@ -112,14 +112,22 @@ gulp.task('clean:jekyll', function(callback) {
 // Main clean task.
 // Deletes _site directory and processed assets.
 gulp.task('clean', ['clean:jekyll',
-    'clean:images',
+    // 'clean:images',
     'clean:scripts',
     'clean:styles']);
 
 // Builds site anew.
+// gulp.task('build', function(callback) {
+//     runSequence('clean',
+//         ['build:scripts', 'build:images', 'build:styles'],
+//         'build:jekyll',
+//         callback);
+// });
+
+// Builds site anew.
 gulp.task('build', function(callback) {
     runSequence('clean',
-        ['build:scripts', 'build:images', 'build:styles'],
+        ['build:scripts', 'build:styles'],
         'build:jekyll',
         callback);
 });
