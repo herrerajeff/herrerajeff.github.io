@@ -642,11 +642,19 @@ small
     flex-wrap: wrap
     justify-content: space-between
 
+    @media screen and (min-width: 1440px)
+        margin-top: $topMargin
+
+    +media-query($s)
+        margin-top: $topMarginMobile
+
 .link
     &__block
         +quarter
         +media-query($m)
             +half
+
+
         +media-query($s)
             +full
 
