@@ -201,6 +201,4 @@ gulp.task('serve', ['build:jekyll:local'], function() {
     // Watch data files.
     gulp.watch('_data/**.*+(yml|yaml|csv|json)', ['build:jekyll:watch']);
 
-    // Watch favicon.png.
-    gulp.watch('favicon.png', ['build:jekyll:watch']);
 });
