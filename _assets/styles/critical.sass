@@ -313,7 +313,6 @@ html, body
     &__item
         display: block
         border: none
-        height: 483px
         margin-bottom: 12px
         position: relative
         transform: translateY(0)
@@ -321,13 +320,17 @@ html, body
 
         +half
 
+        &::after
+            content: ''
+            display: block
+            padding-top: 100%
+
         +media-query($m)
             +full
 
 
         +media-query($s)
             margin-bottom: 32px
-            height: 400px
 
 
         &:hover
