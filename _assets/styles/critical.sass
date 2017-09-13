@@ -994,8 +994,13 @@ small
 .dark
     animation: darkbg 0.5s 0.3s ease forwards
 
-    a, h1, h2, h3, h4, h5, h6
-        animation: darktext 0.5s 0.3s ease forwards
+    .header
+        a, h1, h2, h3, h4, h5, h6
+            color: $c-white
+
+    .page-content
+        a, h1, h2, h3, h4, h5, h6
+            animation: darktext 0.5s 0.3s ease forwards
 
     #header__nav
         &--input
@@ -1004,7 +1009,7 @@ small
                 color: $c-text
 
                 a, h1, h2, h3, h4, h5, h6
-                    color: $c-black !important
+                    color: $c-black
 
             &:checked ~ #header__nav--button
                 span
