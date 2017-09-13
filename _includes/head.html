@@ -28,10 +28,10 @@
 
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ site.title }}">
-  {% if page.feature == '' %}
-    <meta property="og:image" content="http://www.jeffreyherrera.com/assets/img/profile.jpg">
-    {% else %}
+  {% if page.feature %}
     <meta property="og:image" content="{{ page.feature | absolute_url }}">
+    {% else %}
+    <meta property="og:image" content="http://www.jeffreyherrera.com/assets/img/profile.jpg">
   {% endif %}
   <meta property="og:url" content="http://www.jeffreyherrera.com">
   <meta property="og:site_name" content="{{ site.title }}">
@@ -41,10 +41,10 @@
   <meta name="twitter:site" content="@isthatjeff">
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ site.title }}">
-  {% if page.feature == '' %}
-    <meta property="twitter:image" content="http://www.jeffreyherrera.com/assets/img/profile.jpg">
-  {% else %}
+  {% if page.feature %}
     <meta property="twitter:image" content="{{ page.feature | absolute_url }}">
+  {% else %}
+    <meta property="twitter:image" content="http://www.jeffreyherrera.com/assets/img/profile.jpg">
   {% endif %}
   <meta name="twitter:image:alt" content="{{ site.title }}">
 
