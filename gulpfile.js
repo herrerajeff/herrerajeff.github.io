@@ -117,20 +117,20 @@ gulp.task('clean', ['clean:jekyll',
     'clean:styles']);
 
 // Builds site anew.
-// gulp.task('build', function(callback) {
-//     runSequence('clean',
-//         ['build:scripts', 'build:images', 'build:styles'],
-//         'build:jekyll',
-//         callback);
-// });
-
-// Builds site anew.
 gulp.task('build', function(callback) {
     runSequence('clean',
-        ['build:scripts', 'build:styles'],
+        ['build:scripts', 'build:images', 'build:styles'],
         'build:jekyll',
         callback);
 });
+
+// // Builds site anew.
+// gulp.task('build', function(callback) {
+//     runSequence('clean',
+//         ['build:scripts', 'build:styles'],
+//         'build:jekyll',
+//         callback);
+// });
 
 // Default Task: builds site.
 gulp.task('default', ['build']);
