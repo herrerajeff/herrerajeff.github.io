@@ -175,7 +175,7 @@ html, body
         z-index: 5
         cursor: pointer
         user-select: none
-        padding: 10% 5%
+        padding: 10% 10% 10% 5%
         display: none
 
         +media-query($s)
@@ -317,14 +317,8 @@ html, body
         position: relative
         transform: translateY(0)
         transition: all 0.3s ease-in-out
-        background-color: $c-yellow
 
         +half
-
-        &::after
-            content: ''
-            display: block
-            padding-top: 100%
 
         +media-query($m)
             +full
@@ -350,9 +344,16 @@ html, body
             background-position: center
             background-repeat: no-repeat
             background-size: cover
-            height: 100%
+
+            // min-height: 100%
             position: relative
             width: 100%
+            background-color: $c-yellow
+
+            &::after
+                content: ''
+                display: block
+                padding-top: 100%
 
         &--overlay
             align-items: flex-end
