@@ -5,6 +5,6 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 wt.fix({
 	elements: 'p, h1',
 	chars: 10,
-	method: 'nbsp',
+	method: 'padding-right',
 	event: 'resize'
     });
