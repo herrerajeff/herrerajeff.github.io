@@ -314,12 +314,16 @@ html, body
         display: block
         border: none
         margin-bottom: 12px
-        min-height: 500px
         position: relative
         transform: translateY(0)
         transition: all 0.3s ease-in-out
 
         +half
+
+        &::after
+            content: ''
+            display: block
+            padding-top: 100%
 
         +media-query($m)
             +full
@@ -988,24 +992,6 @@ small
 
     to
         opacity: 1
-
-@keyframes fadeInBody
-    from
-        opacity: 0
-        transform: translateX(5%)
-
-    to
-        opacity: 1
-        transform: translateX(0)
-
-@keyframes fadeOutBody
-    from
-        opacity: 1
-        transform: translateY(0)
-
-    to
-        opacity: 0
-        transform: translateY(5%)
 
 // Dark Mode Overrides
 .dark
