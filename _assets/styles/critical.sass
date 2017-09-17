@@ -360,10 +360,14 @@ html, body
             background-color: rgba($c-black, 0.9)
             display: block
             display: flex
-            height: 100%
             opacity: 0
             transition: all 0.35s ease
-            width: 100%
+            position: absolute
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+            z-index: 2
 
         &--description
             background: radial-gradient(at top right, rgba($c-white, 0.25), rgba($c-white, 0))
@@ -371,6 +375,7 @@ html, body
             min-height: 100%
             position: relative
             width: 100%
+            z-index: 3
 
     &__title
         bottom: 0
