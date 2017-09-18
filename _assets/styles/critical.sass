@@ -55,6 +55,7 @@ html, body
     position: fixed
     transition: all 0.3s ease
     width: 125px
+    z-index: 1
 
     +media-query($s)
         +full
@@ -996,6 +997,27 @@ small
 
     to
         opacity: 1
+
+.lost
+    &__background
+        position: fixed
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background-image: url('https://media.giphy.com/media/BPfKqCTZhLI6A/giphy.gif')
+        z-index: -100
+        opacity: 0.5
+        filter: grayscale(100%)
+        background-size: cover
+        background-position: center
+
+    &__header
+        h1
+            font-size: 22vh
+            margin-top: 100px
+            color: white
+            font-weight: bold
 
 // Dark Mode Overrides
 .dark
