@@ -1,5 +1,5 @@
 ---
-title: Creating a Startup page for routine
+title: Creating a Startup page for better routine
 date: 2017-06-07 09:07:53 +0000
 subtitle: Things I Do
 feature: "/uploads/2017/06/07/startup-page.png"
