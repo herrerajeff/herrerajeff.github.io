@@ -207,6 +207,10 @@ html, body
             &::after
                 top: 7px
 
+.relative
+    position: relative
+    max-width: 100%
+
 .page-content
     align-self: flex-end
     width: 100%
@@ -982,6 +986,7 @@ small
     bottom: 0
     width: calc(100% - 200px)
     border-left: solid 1px darken($c-bg, 5%)
+    border-right: solid 1px darken($c-bg, 5%)
 
     +media-query($s)
         position: absolute
@@ -1018,6 +1023,21 @@ small
             margin-top: 100px
             color: white
             font-weight: bold
+
+.request__form
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    width: calc(100% - 200px)
+
+    +media-query($s)
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        width: 100%
 
 // Dark Mode Overrides
 .dark
