@@ -209,7 +209,9 @@ html, body
 
 .relative
     position: relative
-    max-width: 100%
+
+    +media-query($s)
+        max-width: 100%
 
 .page-content
     align-self: flex-end
@@ -984,7 +986,7 @@ small
     top: 0
     right: 0
     bottom: 0
-    width: calc(100% - 200px)
+    width: calc(100% - 125px)
     border-left: solid 1px darken($c-bg, 5%)
     border-right: solid 1px darken($c-bg, 5%)
 
@@ -1029,7 +1031,7 @@ small
     top: 0
     right: 0
     bottom: 0
-    width: calc(100% - 200px)
+    width: calc(100% - 125px)
 
     +media-query($s)
         position: absolute
