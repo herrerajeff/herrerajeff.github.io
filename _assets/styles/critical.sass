@@ -227,6 +227,7 @@ html, body
     font-size: 16px
     font-weight: normal
     line-height: 25px
+    height: 100%
 
     h2, h3
         line-height: 30px
@@ -679,12 +680,16 @@ small
     flex-direction: row
     flex-wrap: wrap
     justify-content: space-between
+    min-height: 100%
+    position: relative
 
     +media-query($s)
         margin-top: $topMarginMobile
 
 .link
     &__block
+        display: flex
+        flex-direction: column
         +third
         +media-query($m)
             +half
@@ -695,13 +700,24 @@ small
 
     &__list
         list-style: none
+        display: flex
+        flex-direction: column
+        align-content: space-between
+        flex: 1 1 auto
 
         li
             align-items: center
             display: flex
             flex-direction: row
-            justify-content: space-between
-            margin-bottom: 10px
+            justify-content: flex-start
+            position: relative
+            flex: 1 1 auto
+            &:not(:last-of-type)
+                margin-bottom: 10px
+            +media-query($m)
+                height: 40px
+            +media-query($s)
+                height: 50px
 
             img
                 height: 16px
@@ -714,13 +730,19 @@ small
                 border-radius: 0
                 border: none
                 color: $c-text
-                display: inline-block
+                display: flex
+                justify-content: space-between
+                align-items: center
                 font-size: 14px
                 line-height: auto
                 padding: 5px 10px
-                position: relative
+                position: absolute
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
                 transition: all 0.3s ease
-                width: 100%
+
                 overflow: hidden
 
                 +media-query($s)
@@ -731,6 +753,7 @@ small
                     content: '↗'
                     display: block
                     position: absolute
+                    margin-top: 2px
                     right: -15px
                     top: 50%
                     transform: translateY(-50%)
@@ -742,6 +765,7 @@ small
                     box-shadow: 0 5px 15px rgba($c-black, 0.3)
                     color: $c-white
                     z-index: 1
+                    padding-right: 30px
 
                     &::after
                         right: 10px
@@ -750,6 +774,7 @@ small
         font-size: 20px
         line-height: 30px
         margin-bottom: 10px
+        flex: 0 0 auto
 
 .blog__list
     display: flex
