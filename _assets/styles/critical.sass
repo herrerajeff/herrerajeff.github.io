@@ -492,6 +492,14 @@ small
     display: inline-block
     font-size: 12px
 
+.interaction
+    &__buttons
+        display: flex
+        justify-content: space-between
+
+        +media-query($s)
+            flex-direction: column
+
 .pipeline
     background-color: $c-darkbg
     border-bottom: none !important
@@ -499,11 +507,15 @@ small
     color: $c-white
     display: block
     font-size: 18px
-    margin-top: 50px
+    margin-top: 25px
     padding: 25px
     text-align: center
     transition: all 0.5s ease
-    width: 100%
+
+    +half
+    +media-query($s)
+        +full
+
 
     &:hover
         animation: flashing 1s ease infinite
