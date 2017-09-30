@@ -9,7 +9,7 @@ permalink: "/startup/"
         <h1 class="link__title">Design</h1>
         <ul class="link__list">
             {% for startup in site.data.startup-design %}
-                <li><a href="{{startup.url}}" target="_blank" alt="{{startup.name}}"><img src="http://s2.googleusercontent.com/s2/favicons?domain_url={{startup.url}}" /><span>{{ startup.name }}</span></a> </li>
+                <li><a href="{{startup.url}}" target="_blank" rel="noopener" alt="{{startup.name}}"><img src="http://s2.googleusercontent.com/s2/favicons?domain_url={{startup.url}}" alt="favicon" /><span>{{ startup.name }}</span></a> </li>
             {% endfor %}
         </ul>
     </div>
@@ -18,7 +18,7 @@ permalink: "/startup/"
         <h1 class="link__title">Misc</h1>
         <ul class="link__list">
             {% for startup in site.data.startup-misc %}
-                <li> <a href="{{startup.url}}" target="_blank" alt="{{startup.name}}"><img src="http://www.google.com/s2/favicons?domain_url={{startup.url}}" /><span>{{ startup.name }}</span></a> </li>
+                <li> <a href="{{startup.url}}" target="_blank" rel="noopener" alt="{{startup.name}}"><img src="http://www.google.com/s2/favicons?domain_url={{startup.url}}"  alt="favicon" /><span>{{ startup.name }}</span></a> </li>
             {% endfor %}
         </ul>
     </div>
