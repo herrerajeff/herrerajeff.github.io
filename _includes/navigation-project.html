@@ -5,6 +5,6 @@
 	<ul class="header__nav--project">
 		{% if page.next %} <li><a href="{{ page.next.url }}" style=" color: #{{ page.color }}">Next Project</a></li> {% endif %}
 		{% if page.previous %} <li><a href="{{ page.previous.url }}" style=" color: #{{ page.color }}">Previous Project</a></li> {% endif %}
-		{% if page.site %} <li><a href="{{ page.site }}" style=" color: #{{ page.color }}">Visit Website</a></li>{% endif %}
+		{% if page.site %} <li><a href="{{ page.site }}" style=" color: #{{ page.color }}" target="_blank">Visit Website</a></li>{% endif %}
 	</ul>
 </ul>
