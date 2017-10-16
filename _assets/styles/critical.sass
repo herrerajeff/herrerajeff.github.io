@@ -5,7 +5,7 @@
 @import base/reset
 
 $topMargin: 200px
-$topMarginMobile: 75px
+$topMarginMobile: 50px
 
 =full
     width: 100%
@@ -24,7 +24,8 @@ html, body
 
 .init
     padding-bottom: $topMargin
-    padding-top: $topMargin
+
+    // padding-top: $topMargin
 
     +clearfix
     +media-query($s)
@@ -253,10 +254,10 @@ html, body
 .home
     &__header
         display: flex
-        justify-content: space-between
+        justify-content: flex-end
 
         +media-query($s)
-            flex-direction: column
+            justify-content: flex-start
 
     &__title
         color: $c-black
