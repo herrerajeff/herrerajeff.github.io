@@ -22,10 +22,12 @@ $topMarginMobile: 50px
 html, body
     height: 100%
 
-.init
-    padding-bottom: $topMargin
+    h1, h2, h3, h4, h5, h6
+        -webkit-font-smoothing: antialiased
+        -moz-osx-font-smoothing: grayscale
 
-    // padding-top: $topMargin
+.init
+    padding-bottom: $topMargin / 2
 
     +clearfix
     +media-query($s)
@@ -228,7 +230,7 @@ html, body
     font-size: 16px
     font-weight: normal
     line-height: 25px
-    height: 100%
+    min-height: 100%
 
     h2, h3
         line-height: 30px
@@ -339,22 +341,21 @@ html, body
 
         &:hover
             border: none
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35)
+            box-shadow: 0 20px 40px rgba(#000446, 0.3)
             transform: translateY(-5px)
             z-index: 1
 
             .work__item--overlay
                 opacity: 1
 
-            .work__title
+            .work__title, .work__subtitle
                 transform: translateY(0)
 
         &--container
             background-position: center
             background-repeat: no-repeat
-            background-size: cover
-
-            // min-height: 100%
+            background-size: cover !important
+            overflow: hidden
             position: relative
             width: 100%
             background-color: $c-yellow
@@ -366,48 +367,49 @@ html, body
 
         &--overlay
             align-items: flex-end
-            background-color: rgba($c-black, 0.9)
             display: block
             display: flex
-            opacity: 0
+            background-image: linear-gradient(to top, rgba(#000420, 0.4), rgba(#000420, 0))
             transition: all 0.35s ease
             position: absolute
-            top: 0
+            top: 60%
             right: 0
             bottom: 0
             left: 0
             z-index: 2
 
         &--description
-            background: radial-gradient(at top right, rgba($c-white, 0.25), rgba($c-white, 0))
             box-shadow: 0 10px 30px -5px rgba($c-black, 0.1)
-            min-height: 100%
-            position: relative
+            position: absolute
             width: 100%
             z-index: 3
+            bottom: 0
+            padding: 0 100px 15px 30px
+            color: $c-white !important
 
     &__title
-        bottom: 0
-        color: $c-white
-        font-size: 50px
-        font-weight: normal
-        margin-bottom: 0
-        opacity: 0.8
-        padding: 25px
-        padding-right: 100px
-        position: absolute
+        font-size: 30px
+        font-weight: 300
+        margin-bottom: 3px
         transform: translateY(10px)
-        transition: all 0.35s ease
+        transition: all 0.3s ease
+        color: white
+
+        &--singlepage
+            margin-bottom: 50px
+
+    &__subtitle
+        font-size: 14px
+        transform: translateY(10px)
+        transition: all 0.5s ease
+        color: white
+        -webkit-font-smoothing: antialiased
+        -moz-osx-font-smoothing: grayscale
 
         +media-query($s)
             font-size: 30px
             padding: 25px
             padding-right: 75px
-
-
-        &--singlepage
-            font-size: 50px
-            margin-bottom: 75px
 
             +media-query($s)
                 margin-bottom: 50px
@@ -431,8 +433,6 @@ html, body
     &__info
         font-size: 16px
         line-height: 27px
-        padding-top: 50px
-        padding-bottom: 50px
         margin-top: 25px
         margin-bottom: 25px
         display: flex
@@ -449,6 +449,9 @@ html, body
             font-size: 14px
             line-height: 25px
 
+            span
+                color: $c-black
+
             +media-query($s)
                 +full
 
@@ -459,6 +462,21 @@ html, body
             letter-spacing: 0.02em
 
             +full
+
+        .data
+            text-transform: none
+            font-size: 20px
+            color: $c-text
+            font-weight: 300
+            line-height: 1.4
+            width: 75%
+            letter-spacing: 0
+
+            span
+                color: $c-black
+
+            +media-query($s)
+                width: 100%
 
 .content__title
     font-size: 50px
