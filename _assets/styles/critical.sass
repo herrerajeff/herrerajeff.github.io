@@ -314,11 +314,14 @@ html, body
                 width: 75px
 
     &__work
-        margin-top: 100px
+        margin-top: 160px
         margin-bottom: $topMarginMobile
         display: flex
         flex-wrap: wrap
         justify-content: space-between
+
+        +media-query($s)
+            margin-top: 100px
 
 .work
     &__item
@@ -384,8 +387,11 @@ html, body
             width: 100%
             z-index: 3
             bottom: 0
-            padding: 0 100px 15px 30px
+            padding: 0 100px 7px 20px
             color: $c-white !important
+
+            +media-query($s)
+                padding: 15px 15px 0 15px
 
     &__title
         font-size: 30px
@@ -394,6 +400,10 @@ html, body
         transform: translateY(10px)
         transition: all 0.3s ease
         color: white
+
+        +media-query($s)
+            font-size: 30px
+
 
         &--singlepage
             margin-bottom: 50px
@@ -405,14 +415,6 @@ html, body
         color: white
         -webkit-font-smoothing: antialiased
         -moz-osx-font-smoothing: grayscale
-
-        +media-query($s)
-            font-size: 30px
-            padding: 25px
-            padding-right: 75px
-
-            +media-query($s)
-                margin-bottom: 50px
 
     &__form
         &--title
