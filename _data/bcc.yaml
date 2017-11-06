@@ -1,9 +1,9 @@
 ---
 - format: Half Page
-  job-fair: 
+  job-fair:
   name: Appointment Card
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/89k6r36346vd0bk/AppointmentCard%20Spr16.pdf?dl=1
 - format: Half Page
   job-fair: false
@@ -12,65 +12,65 @@
   transfer-fair: false
   url: https://www.dropbox.com/s/g4h32ziis0bxn26/Career%20Plan.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: CUNY Transfer Application Walk-In Schedule Flyer
   print: 11x17"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/6z28djh0bj083v5/CUNY%20Transfer%20Application%20Assistance%2011x17.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: CUNY Transfer Application Walk-In Schedule Half Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/6z28djh0bj083v5/CUNY%20Transfer%20Application%20Assistance%2011x17.pdf?dl=1
 - format: Quarter Page
-  job-fair: 
+  job-fair:
   name: CUNY Transfer Deadlines Quarter Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/fqwi7rl3tstl1n4/CUNY%20Transfer%20Dates%20Flyer_Revised.pdf?dl=1
 - format: Quarter Page
-  job-fair: 
+  job-fair:
   name: CUNY Welcome Center Quarter Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/5xy6ub9eamuwgyo/CUNY%20Welcome%20Center%20Quarter%20Flyer%20_FixedGutters.pdf?dl=1
 - format: Poster
-  job-fair: 
+  job-fair:
   name: Department Directory Poster
   print: 24x36"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/q1whs5o397fcmra/Directory%20Poster%20_%20Revised.pdf?dl=1
 - format: N/A
-  job-fair: 
+  job-fair:
   name: Department Letterhead
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/dz8abeqq0pprpf4/BCC%20Letterhead.docx?dl=1
 - format: N/A
-  job-fair: 
+  job-fair:
   name: Department Logo
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/bozp0ylpu2669ne/Department%20Logo.png?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Department Services Chart
   print: 8.5x11"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/q6eqgrk0yvs6dtn/Department%20Services%20Chart.pdf?dl=1
 - format: Half Page Booklet
-  job-fair: 
+  job-fair:
   name: Developing a Foundation for Success Booklet
   print: 8.5x11" / Dbl Sided / Folded
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/ebdzs5oshvc5q9y/FoundationForSuccess_Revised.pdf?dl=1
 - format: Full Page Booklet
   job-fair: true
   name: Employer Directory
   print: 11x17" / Dbl Sided / Saddle Stitched
-  transfer-fair: 
-  url: https://www.dropbox.com/s/6z28djh0bj083v5/CUNY%20Transfer%20Application%20Assistance%2011x17.pdf?dl=1
+  transfer-fair:
+  url: https://www.dropbox.com/s/mf0sb9llq2kywok/Employer%20Directory%202016_Revised.pdf?dl=1
 - format: Full Page
   job-fair: false
   name: Fall Internship Forum Flyer
@@ -78,76 +78,76 @@
   transfer-fair: false
   url: https://www.dropbox.com/s/3l6u0tqgw096t80/Fall%20Internship%20Forum.pdf?dl=1
 - format: Half Page
-  job-fair: 
+  job-fair:
   name: Hunter Transfer Talks Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/pqyxqi75j6zypsh/HunterTransferFlyer.pdf?dl=1
 - format: Full Page
   job-fair: true
   name: Job Fair Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/ygt12fn5j9d8swe/Job%20Fair%20Spring%202017%20Flyer%208.5x11.pdf?dl=1
 - format: Poster
   job-fair: true
   name: Job Fair Poster
   print: 24x36"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/oka5q9nmoqoxk2v/Job%20Fair%20Spring%202017%20Poster%2024x36.pdf?dl=1
 - format: Quarter Page
   job-fair: true
   name: Job Fair Quarter Flyer
   print: 8.5x11" / Dbl Sided / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/cg8snsez8co5o90/Job%20Fair%20Spring%202017%20Quarter%20Flyer%208.5x11%20%281%29.pdf?dl=1
 - format: E-Mail Template
   job-fair: true
   name: Job Fair Recruiter Email
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: http://codepen.io/isthatjeff/pen/bwqZgy
 - format: Half Page
   job-fair: true
   name: Job Fair Recruiter Survey
   print: 8.5x11" / Dbl Sided / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/yfaddy2a0f8apce/Job%20Fair%20Recruiter%20Checkout%20Survey_Revised.pdf?dl=1
 - format: OSSES Banner
   job-fair: true
   name: Job Fair Save The Date
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/sz0f432yl1qdtp4/JobFair_SaveTheDate_Nov_Revised.jpg?dl=1
 - format: OSSES Banner
   job-fair: true
   name: Job Fair OSSES Banner
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/uhdwfihc9u6623c/Job-Fair-Spring-2017-Banner-Revised-2.jpg?dl=1
 - format: Half Page
   job-fair: true
   name: Job Fair Student Survey
   print: 8.5x11" / Dbl Sided / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/ro03zkm849q3o0v/Job%20Fair%20Student%20Checkout%20Survey_Revised.pdf?dl=1
 - format: Quarter Flyer
-  job-fair: 
+  job-fair:
   name: Liberty Tax Open House Quarter Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/kihlhqb76exqnu3/Liberty%20Tax%20Open%20House.pdf?dl=1
 - format: Quarter Page
-  job-fair: 
+  job-fair:
   name: May Madness Quarter Flyer
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/dog594qafty9zwq/Workshop%20Quarter%20Flyer_V2.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Meet & Greet Flyer
   print: 8.5x11"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/vnxqanag9w7gt6k/BCC%3ACity%20College%20Meet%20%26%20Greet_Revised_107.pdf?dl=1
 - format: Full Page
   job-fair: true
@@ -156,104 +156,104 @@
   transfer-fair: true
   url: https://www.dropbox.com/s/l73yeve6uc9qwqf/Name%20Badge%20Template.doc?dl=1
 - format: Half Page
-  job-fair: 
+  job-fair:
   name: Online Resource Links Handout
   print: 8.5x11" / Cut
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/g0bhmzxk6peiwjj/Online%20Resource%20Links%20Half%20Flyer.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Spring 2017 Workshops Flyer
   print: 8.5x11"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/sths6pey1veps08/Spring%202017%20Workshops%20Flyer_Revised%20March%201.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Transfer Application Flyer
   print: 11x17"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/0r53y85t6ifd4n6/TransferApplication2017_11x17.pdf?dl=1
 - format: Poster
-  job-fair: 
+  job-fair:
   name: Transfer Application Poster
   print: 24x36"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/msmg70al2ecyhr5/TransferApplication2017_24x36.pdf?dl=1
 - format: Google Sheets Document
-  job-fair: 
+  job-fair:
   name: Transfer Fair Checklist
   print: N/A
   transfer-fair: true
   url: https://docs.google.com/spreadsheets/d/1y5KMgAid1k6rOyi-ee5eHkvZ-AzRO6nW1_aKXi4kRvM/edit?usp=sharing
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Transfer Fair College Directory
   print: 8.5x11"
   transfer-fair: true
   url: https://www.dropbox.com/s/pn4bk0rk1vyp309/Spring%202017%20Transfer%20Fair%20College%20Directories_Revised.pdf?dl=1
 - format: Half Page
-  job-fair: 
+  job-fair:
   name: Transfer Fair Half Flyer
   print: 8.5x11" / Cut
   transfer-fair: true
   url: https://www.dropbox.com/s/ya0jac9tpvcu7h9/Transfer%20Fair%20Spring%202017%20Half%20Flyers.pdf?dl=1
 - format: OSSES Banner
-  job-fair: 
+  job-fair:
   name: Transfer Fair OSSES Banner
   print: N/A
   transfer-fair: true
   url: https://www.dropbox.com/s/r1rsbae0xg17ti5/Transfer-Fair-OSSES-2017.jpg?dl=1
 - format: OSSES Banner
-  job-fair: 
+  job-fair:
   name: Transfer Fair Save the Date
   print: N/A
   transfer-fair: true
   url: https://www.dropbox.com/s/lea7iywpvdkt75q/TransferFairSaveDateSmall.jpg?dl=1
 - format: Poster
-  job-fair: 
+  job-fair:
   name: Transfer Fair Wayfinding
   print: 8.5x14"
   transfer-fair: true
   url: https://www.dropbox.com/s/hdqciooyudt96vk/Transfer%20Fair%20Wayfinding%20Spring%2017.pdf?dl=1
 - format: Tri-Fold
-  job-fair: 
+  job-fair:
   name: Transfer Planning Brochure
   print: 8.5x11" / Dbl Sided / Tri-Folded
-  transfer-fair: 
-  url: 
+  transfer-fair:
+  url:
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Transfer Talk Flyer
   print: 8.5x11"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/248b84um6se5cdw/Transfer%20Talk.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Upcoming Events Flyer
   print: 8.5x11"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/ii0yjd9l40v1u57/Upcoming%20Transfer%20Events_Revised_928.pdf?dl=1
 - format: OSSES Banner
-  job-fair: 
+  job-fair:
   name: Upcoming Events OSSES Banner
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/fl7725f1s09lre6/Upcoming%20Transfer%20Events_OSSES.jpg?dl=1
 - format: Half Page Booklet
-  job-fair: 
+  job-fair:
   name: Welcome Back Brochure
   print: 8.5x11" / Dbl Sided / Folded
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/qscroynrum63zgc/Welcome%20Back%20Brochure_Revised%20Aug%2031.pdf?dl=1
 - format: Full Page
-  job-fair: 
+  job-fair:
   name: Workshop Events Flyer
   print: 8.5x11"
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/lbjos1wllpwzc17/November%20Workshops.pdf?dl=1
 - format: OSSES Banner
-  job-fair: 
+  job-fair:
   name: Workshop Events OSSES Banner
   print: N/A
-  transfer-fair: 
+  transfer-fair:
   url: https://www.dropbox.com/s/io8y3ielg1k84o3/November-Workshops-OSSES-Banner.jpg?dl=1
