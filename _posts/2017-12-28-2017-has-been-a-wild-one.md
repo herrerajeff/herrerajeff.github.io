@@ -8,4 +8,6 @@ full: false
 ---
 
 
-I usually make a playlist of my most listened music of the year. [Here is: 2017 Has Been a Wild One.](https://itunes.apple.com/us/playlist/2017-has-been-a-wild-one/pl.u-Ymb098pHPjVMlM)
+I usually make a playlist of my most listened music of the year. 
+## 2017 Has Been a Wild One.
+[Apple Music](https://itunes.apple.com/us/playlist/2017-has-been-a-wild-one/pl.u-Ymb098pHPjVMlM) | [Spotify](https://open.spotify.com/user/121523262/playlist/4Aavsha9Szq2nKCpF8NRy3)
